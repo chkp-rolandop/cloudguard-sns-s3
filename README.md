@@ -11,6 +11,7 @@ Update the relevant fields in the IAM role and python file.
 Modify the following variables:
 
 s3prefix (optional)
+
 s3_bucket (required):  This is the name of your s3 bucket
 
 ### IAMRole.json
