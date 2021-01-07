@@ -4,7 +4,7 @@
         {
             "Effect": "Allow",
             "Action": "logs:CreateLogGroup",
-            "Resource": "your-logs-arn*"
+            "Resource": "[your-logs-arn]*"
         },
         {
             "Effect": "Allow",
