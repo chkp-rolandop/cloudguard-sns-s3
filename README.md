@@ -47,6 +47,6 @@ Example:
                 "s3:PutObject"
             ],
             "Resource": [
-                "[arn:aws:s3:::my-s3-bucket]/*"
+                "arn:aws:s3:::my-s3-bucket/*"
             ]
         }
