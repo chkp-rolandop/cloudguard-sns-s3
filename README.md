@@ -24,3 +24,28 @@ Modify the following fields and remove the brackets []:
 \[your-s3-bucket-arn\]
 
 \[your-logs-arn\]
+
+
+Example:
+
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:PutObject"
+            ],
+            "Resource": [
+                "your-s3-bucket-arn/*"
+            ]
+        }
+        
+   Would change to:
+ 
+         {
+            "Effect": "Allow",
+            "Action": [
+                "s3:PutObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::my-s3-bucket/*"
+            ]
+        }
