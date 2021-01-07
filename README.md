@@ -1,10 +1,10 @@
 # cloudguard-sns-s3
 
-This is a lambda function made to transfer SNS messages to s3.
+This is a lambda function made to transfer SNS messages to s3.  
 
 ## Usage:
 
-Update the relevant fields in the IAM role and python file.
+Update the relevant fields in the IAM role and python file. Your Trigger for the lambda should be set to an SNS Topic.
 
 ### lambda-sns-to-s3.py
 
