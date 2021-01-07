@@ -13,7 +13,7 @@
                 "logs:PutLogEvents"
             ],
             "Resource": [
-                "your-lambda-arn:*"
+                "[your-lambda-arn]:*"
             ]
         },
         {
@@ -22,7 +22,7 @@
                 "s3:ListBucket"
             ],
             "Resource": [
-                "your-s3-bucket-arn"
+                "[your-s3-bucket-arn]"
             ]
         },
         {
@@ -31,7 +31,7 @@
                 "s3:PutObject"
             ],
             "Resource": [
-                "your-s3-bucket-arn/*"
+                "[your-s3-bucket-arn]/*"
             ]
         }
     ]
