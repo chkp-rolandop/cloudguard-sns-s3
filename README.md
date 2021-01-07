@@ -4,7 +4,7 @@ This is a lambda function made to transfer SNS messages to s3.  This was initial
 
 ### Helix use case:
 
-CloudGuard &rarr SNS &rarr Lambda &rarr S3 &rarr Helix SEIM
+CloudGuard &rarr; SNS &rarr; Lambda &rarr; S3 &rarr; Helix SEIM
 
 ## Usage:
 
