@@ -5,7 +5,7 @@ print('Loading function')
 def lambda_handler(event, context):
     s3prefix = 'CloudGuardAlerts-'
     ext = '.json'
-    s3_bucket = 'cg-seim-bucket'
+    s3_bucket = 'your-s3-bucket'
     
     timestamp = event['Records'][0]['Sns']['Timestamp']
     message = event['Records'][0]['Sns']['Message']
