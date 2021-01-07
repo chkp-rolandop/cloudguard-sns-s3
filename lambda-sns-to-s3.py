@@ -9,7 +9,8 @@ def lambda_handler(event, context):
     #ext is the extension for the filename
     ext = '.json'
     
-    #s3_bucket is the name of the s3 bucket to write the files to THIS VALUE MUST BE CHANGED
+    #s3_bucket is the name of the s3 bucket to write the files to 
+    #THIS VALUE MUST BE CHANGED
     s3_bucket = 'your-s3-bucket'
     
     #Pulling timestamp and message from SNS message
