@@ -1,6 +1,10 @@
 # cloudguard-sns-s3
 
-This is a lambda function made to transfer SNS messages to s3.  
+This is a lambda function made to transfer SNS messages to s3.  This was initially created to integrate CloudGuard Alerts into FireEye Helix SEIM.  Helix already supports reading from S3 buckets and CloudGuard supports sending to SNS.
+
+### Helix use case:
+
+CloudGuard &rarr SNS &rarr Lambda &rarr S3 &rarr Helix SEIM
 
 ## Usage:
 
