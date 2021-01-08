@@ -1,0 +1,31 @@
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-east-1:{{{accountId}}}:ExampleTopic",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "95df01b4-ee98-5cb9-9903-4c221d41eb5e",
+        "TopicArn": "arn:aws:sns:us-east-1:123456789012:ExampleTopic",
+        "Subject": "example subject",
+        "Message": "{\"status\":\"Failed\",\"policy\":{\"name\":\"SNS-SIEM\",\"description\":\"\"},\"findingKey\":\"1111111111111111111\",\"bundle\":{\"name\":\"AWS CloudGuard Serverless Architectures Security\",\"description\":\"Automated Validation of Serverless Architecture best practices.\\nFor additional reference: https://www.cisecurity.org/benchmark/google_cloud_computing_platform/\",\"id\":-40},\"reportTime\":\"2020-10-23T14:13:01.698Z\",\"rule\":{\"name\":\"S3 Buckets Server Side Encryption At Rest\",\"ruleId\":\"D9.AWS.CRY.03\",\"description\":\"Ensure that S3 Buckets have server side encryption at rest enabled to protect sensitive data.\",\"remediation\":\"On the AWS S3 console, for each bucket that failed the rule, navigate to the Properties tab, and select Default encryption. Select an encryption method (AES-256 or AWS-KMS).\\n\\nRefer to: https://docs.aws.amazon.com/AmazonS3/latest/user-guide/default-bucket-encryption.html\\\"\",\"complianceTags\":\"Encryption and Key Management\",\"logicHash\":\"0ZzGfvcOtqrU9mPCgpKqog\",\"severity\":\"High\"},\"account\":{\"id\":\"111111111111111\",\"name\":\"someaccount\",\"vendor\":\"AWS\",\"dome9CloudAccountId\":\"111111-1b14-4f41-bcc1-111111111111\",\"organizationalUnitId\":\"beba19bc-80e1-4466-ae65-d5fe57623a3b\",\"organizationalUnitPath\":\"AWS-DVSA\"},\"region\":\"N. Virginia\",\"entity\":{\"logging\":{\"targetBucketName\":null,\"targetPrefix\":null,\"grants\":[],\"enabled\":false},\"acl\":{\"ownerDisplayName\":\"someone\",\"ownerId\":\"f2d675b085a8a4cfe44eab5a42ff11111111111111111111\"},\"policy\":null,\"versioning\":{\"status\":\"Enabled\",\"mfaDelete\":false},\"website\":{\"indexDocumentSuffix\":null,\"errorDocument\":null,\"routingRules\":[]},\"encryption\":{\"serverSideEncryptionRules\":[]},\"replication\":{\"role\":\"\",\"rules\":[]},\"lifecycle\":{\"rules\":[]},\"accessPublicBlock\":{\"blockPublicAcls\":true,\"ignorePublicAcls\":true,\"blockPublicPolicy\":true,\"restrictPublicBuckets\":true},\"accountAccessPublicBlock\":null,\"objectLevelLogging\":false,\"accessAnalyzerFindingCount\":0,\"vpc\":null,\"id\":\"rolop-terraform-backend\",\"type\":\"S3Bucket\",\"name\":\"rolop-terraform-backend\",\"dome9Id\":\"1|06ee8acd-1b14-4f41-bcc1-fc88bde8a76b|rg|s3Bucket|somes3bucket\",\"accountNumber\":\"11111111111111\",\"region\":\"us_east_1\",\"source\":\"db\",\"tags\":[],\"externalFindings\":null},\"remediationActions\":[]}",
+        "Timestamp": "1970-01-01T00:00:00.000Z",
+        "SignatureVersion": "1",
+        "Signature": "EXAMPLE",
+        "SigningCertUrl": "EXAMPLE",
+        "UnsubscribeUrl": "EXAMPLE",
+        "MessageAttributes": {
+          "Test": {
+            "Type": "String",
+            "Value": "TestString"
+          },
+          "TestBinary": {
+            "Type": "Binary",
+            "Value": "TestBinary"
+          }
+        }
+      }
+    }
+  ]
+}
