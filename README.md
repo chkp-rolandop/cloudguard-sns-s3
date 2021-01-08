@@ -54,3 +54,7 @@ Example:
                 "arn:aws:s3:::my-s3-bucket/*"
             ]
         }
+
+### Testing
+
+Use the contents of test_event.json to create a test event in the AWS lambda console.  This json contains a sample alert from CloudGuard CSPM.
